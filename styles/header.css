@@ -1,0 +1,244 @@
+.header {
+  height: 57px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 57px;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(216, 211, 211);
+
+  z-index: 100;
+}
+
+.left {
+  width: 162px;
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu {
+  height: 24px;
+  width: 24px;
+  margin-left: 20px;
+  margin-right: 26px;
+  cursor: pointer;
+}
+.youtube-logo {
+  width: 90px;
+  height: 27px;
+  cursor: pointer;
+}
+
+.mid {
+  display: flex;
+  flex: 1;
+  max-width: 470px;
+}
+.search-bar {
+  display: flex;
+  flex: 1;
+  height: 40px;
+  width: 0;
+  font-size: 18px;
+  padding-left: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(206, 202, 202);
+  border-radius: 1px;
+}
+
+.search-button {
+  height: 44px;
+  width: 63px;
+  margin-right: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(206, 202, 202);
+  border-radius: 1px;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+}
+.search-button .tooltip {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: gray;
+  bottom: -45px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  opacity: 0;
+  pointer-events: none;
+}
+.search-button:hover .tooltip {
+  opacity: 1;
+}
+
+.voice-button {
+  height: 46px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  margin-right: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.voice-button .tooltip {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: gray;
+  bottom: -42px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  left: -55px;
+  opacity: 0;
+  width: 140px;
+  pointer-events: none;
+}
+
+.voice-button:hover .tooltip {
+  opacity: 1;
+}
+
+.search {
+  width: 24px;
+  height: 24px;
+}
+.voice {
+  width: 24px;
+  height: 24px;
+}
+
+.right {
+  width: 182px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 18px;
+  flex-shrink: 0;
+}
+
+.upload {
+  width: 24px;
+  height: 24px;
+}
+.yt-apps {
+  width: 24px;
+  height: 24px;
+}
+.notif {
+  width: 24px;
+  height: 24px;
+}
+.my-channel {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.notification-icon {
+  position: relative;
+}
+.notif-number {
+  position: absolute;
+  top: -3px;
+  right: -7px;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid white;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 12px;
+}
+
+.upload-container {
+  position: relative;
+  cursor: pointer;
+}
+.upload-container .tooltip {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: gray;
+  bottom: -45px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  opacity: 0;
+  pointer-events: none;
+  left: -14px;
+}
+
+.upload-container:hover .tooltip {
+  opacity: 1;
+}
+
+.yt-apps-container {
+  position: relative;
+  cursor: pointer;
+}
+.yt-apps-container .tooltip {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: gray;
+  bottom: -45px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  left: -34px;
+}
+.yt-apps-container:hover .tooltip {
+  opacity: 1;
+}
+
+.notification-icon {
+  position: relative;
+  cursor: pointer;
+}
+.notification-icon .tooltip {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: gray;
+  bottom: -45px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  opacity: 0;
+  pointer-events: none;
+  left: -25px;
+}
+.notification-icon:hover .tooltip {
+  opacity: 1;
+}
